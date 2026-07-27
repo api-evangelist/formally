@@ -1,8 +1,12 @@
 aid: formally
 name: Formally
-description: 'Formally is a company surfaced as a portfolio company of bessemer-venture-partners and added
-  to the API Evangelist network as a stub for enrichment. Sector: vertical-software. This profile is a
-  lead awaiting the enrichment pipeline.'
+description: 'Formally is an AI-native platform for legal collaboration that begins with US immigration.
+  It combines intelligent technology, behavioral science, and secure, portable client data to connect
+  immigration attorneys and law firms, individual visa applicants, and employers sponsoring global hires
+  in a single connected product. Attorneys manage cases at scale, individuals track applications and
+  reduce anxiety while retaining ownership of their own data, and employers coordinate visa sponsorship.
+  As of this enrichment pass Formally does not publish a public developer API, SDKs, developer portal, or
+  documentation surface, so this profile captures company identity and published web properties only.'
 url: https://raw.githubusercontent.com/api-evangelist/formally/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +14,29 @@ x-backed-by:
 - bessemer-venture-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+image: https://formally.com/next/images/squareFormallyWordmark.png
 tags:
 - Company
 - Vertical Software
+- Legal
+- Legal Tech
+- Immigration
+- Artificial Intelligence
+- Compliance
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +46,12 @@ maintainers:
 common:
 - type: Website
   url: https://formally.com/home
+- type: Login
+  url: https://formally.com/login
+- type: LinkedIn
+  url: https://www.linkedin.com/company/formallyteam
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
